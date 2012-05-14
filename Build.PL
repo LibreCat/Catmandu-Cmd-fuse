@@ -15,8 +15,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'perl' => '5.10.0',
-        'Catmandu' => '0.1',
+        'perl' => '5.10.1',
+        'Catmandu' => '0.01',
         'Fuse' => '0.14',
     },
     create_license => 1,
