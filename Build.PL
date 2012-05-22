@@ -19,6 +19,10 @@ my $builder = Module::Build->new(
         'Catmandu' => '0.01',
         'Fuse' => '0.14',
     },
+    add_to_cleanup => [qw(
+        Catmandu-Cmd-fuse-*
+    )],
+    create_makefile_pl => 'traditional',
     create_license => 1,
 );
 
